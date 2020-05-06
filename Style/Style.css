@@ -1,0 +1,87 @@
+header{
+    width: auto;
+    height: 90px;
+    background-color:white;
+   padding: 0;
+}
+#Principal
+{
+	background-image: url('../Images/hero.jpg');
+	background-size: cover;
+	padding-top: 90px;
+	min-height: 700px;
+    color: white;
+   
+}
+a
+{
+ text-decoration: none;
+}
+.TxtHeader
+{
+    font-size: 25px;
+   padding: 23px; 
+    
+   color: #255B6F;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ 
+}
+
+#Nombre{
+    position: relative;
+    padding-right: 650px;
+}
+#CHeader
+{ 
+overflow-anchor: none;
+position: relative;
+text-align: right;
+top: 27px;
+padding-right: 100px;
+}
+.SobreMi
+{
+    background-color: white;
+    margin-left: 60px;
+    margin-top: 50px;
+    margin-right: 60px;
+    width: auto;
+    height: auto;
+    border-radius: 95px 95px 95px 95px;
+-moz-border-radius: 95px 95px 95px 95px;
+-webkit-border-radius: 95px 95px 95px 95px;
+border: 4px inset #000000;
+
+}
+body
+{
+    margin: 0;
+    background-color: #081117;
+}
+.TxtMI
+{   color: #255B6F;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 15px;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+
+}
+.Title
+{   
+    text-align: center;
+}
+.ImgConocimientos
+{
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px ;
+    height: 90px;
+    width: 90;
+}
+#Prueba
+{   text-align: center;
+    display:block;
+    margin:auto;
+}
