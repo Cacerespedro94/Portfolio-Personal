@@ -62,11 +62,19 @@ a {
     text-decoration: none;
 }
 
+.Detalle {
+    font-size: 1.2em;
+}
+
 .TxtHeader {
     font-size: 1.61em;
     padding: 21px;
     color: #255B6F;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.txtForm {
+    color: white;
 }
 
 #Nombre {
@@ -109,7 +117,7 @@ body {
     padding: 10;
     margin-top: 20px;
     margin-bottom: 65px;
-    font-size: 25px;
+    font-size: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -130,6 +138,7 @@ body {
     text-align: center;
     display: block;
     margin: auto;
+    
 }
 
 footer {
@@ -137,15 +146,31 @@ footer {
     width: auto;
     height: auto;
 }
-.ImgFooter{
+
+.ImgFooter {
     padding-top: 30px;
     padding-left: 15px;
     padding-right: 15px;
     padding-bottom: 50px;
     height: 5%;
     width: 5%;
-
+   
 }
+
+form {
+    text-align: center;
+    display: block;
+    margin: auto;
+    width: 600px;
+    height: 200px;
+    margin-bottom: 10em;
+}
+
+#ExpTxt {
+    margin-top: 1em;
+    margin-left: 3.2em;
+}
+
 #Redes {
     color: rgb(146, 146, 146);
     text-align: center;

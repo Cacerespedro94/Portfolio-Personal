@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="Style/Style.css">
+    <script type="text/javascript" src="Js/Js.js"></script>
     <title>Portfolio Pedro Caceres</title>
 </head>
 
@@ -25,9 +26,6 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#" id="sobremi">Sobre mi</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#" id="estudios">Estudios</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#" id="experiencias">Experiencias</a>
@@ -70,8 +68,11 @@
     </div>
     <div class="BloqueTxt">
         <h1 class="Title">Experiencia</h1>
-        <h2 id="tFimedi" class="Detalle"><b>Empresa</b> FIMEDI</h2>
-
+        <div id="ExpTxt">
+        <h2 class="Detalle" class="TxtMI"><b>Empresa:</b> FIMEDI NET</h2>
+        <h2 class="Detalle" class="TxtMI"><b>Puesto:</b> Pasantía en desarrollo</h2>
+        <h2 class="Detalle" class="TxtMI"><b>Descripción: </b>
+        </div>
         <p class="TxtMI">
             Colaborador activo en los procesos de desarrollo de software web de la plataforma de control
             nutricional Fimedi NET, realizando pruebas de aceptación de producto, aseguramiento de calidad y
@@ -79,8 +80,30 @@
             (HTML5, CSS). o Manejo de incidencias, documentación, gestión de packages (composer) y control de
             versionado con git/gitlab,
         </p>
-
+        
     </div>
+<section id="Formulario">
+    <form action="" method="POST" id="formulario" onsubmit="return false">
+        <div class="form-group">
+          <label for="ImputNombre" class="txtForm">Ingrese su nombre</label>
+          <input type="text" class="form-control" id="ImputNombre" placeholder="Escriba su nombre...">
+        </div>
+
+        <div class="form-group">
+            <label for="ImputEmail" class="txtForm">Ingrese su email</label>
+            <input type="email" class="form-control" id="ImputEmail" placeholder="nombre@ejemplo.com">
+          </div>
+       <span class="Error" id="EmailError"></span>
+
+        <div class="ImputTexto">
+          <label for="txtForm" class="txtForm">Ingrese un mensaje</label>
+          <textarea class="form-control" id="ImputTexto" rows="3"></textarea>
+        </div>
+
+        <div><input type="submit" class="btn btn-primary" value="Enviar" id="submit"> 
+        </div>
+      </form>
+</section>
     <footer>
 
         <h1 id="Redes">Mis redes</h1>
