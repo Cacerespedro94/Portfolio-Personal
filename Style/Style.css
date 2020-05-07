@@ -1,87 +1,152 @@
-header{
-    width: auto;
-    height: 90px;
-    background-color:white;
-   padding: 0;
-}
-#Principal
-{
-	background-image: url('../Images/hero.jpg');
-	background-size: cover;
-	padding-top: 90px;
-	min-height: 700px;
-    color: white;
-   
-}
-a
-{
- text-decoration: none;
-}
-.TxtHeader
-{
-    font-size: 25px;
-   padding: 23px; 
-    
-   color: #255B6F;
-   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
- 
+.navbar {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .07);
+    min-height: 100px;
+    min-width: 992px;
+    font-size: 20px;
 }
 
-#Nombre{
+.nav-link {
+    color: #0032a8;
+}
+
+.nav-link:hover {
+    color: rgb(12, 146, 255);
+}
+
+.navbar-toggler {
+    font-size: 40px;
+}
+
+.navbar-toggler:focus {
+    outline: none;
+}
+
+body {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 80px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+p {
+    font-size: 18px;
+    color: #999999;
+    line-height: 1.8;
+    margin-bottom: 0;
+}
+
+#hero {
+    background-image: url('../Images/hero.jpg');
+    background-size: cover;
+    padding-top: 90px;
+    min-height: 700px;
+    color: white;
+}
+
+#Principal {
+    background-image: url('../Images/hero.jpg');
+    background-size: cover;
+    padding-top: 90px;
+    min-height: 700px;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+.TxtHeader {
+    font-size: 1.61em;
+    padding: 21px;
+    color: #255B6F;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#Nombre {
     position: relative;
     padding-right: 650px;
 }
-#CHeader
-{ 
-overflow-anchor: none;
-position: relative;
-text-align: right;
-top: 27px;
-padding-right: 100px;
+
+#CHeader {
+    overflow-anchor: none;
+    position: relative;
+    text-align: right;
+    top: 27px;
+    padding-right: 100px;
 }
-.SobreMi
-{
+
+.BloqueTxt {
     background-color: white;
-    margin-left: 60px;
-    margin-top: 50px;
-    margin-right: 60px;
+    margin-left: 80px;
+    margin-top: 60px;
+    margin-right: 80px;
+    margin-bottom: 30px;
     width: auto;
     height: auto;
     border-radius: 95px 95px 95px 95px;
--moz-border-radius: 95px 95px 95px 95px;
--webkit-border-radius: 95px 95px 95px 95px;
-border: 4px inset #000000;
-
+    -moz-border-radius: 95px 95px 95px 95px;
+    -webkit-border-radius: 95px 95px 95px 95px;
+    border: 4px inset #000000;
 }
-body
-{
+
+body {
     margin: 0;
-    background-color: #081117;
+    background-color: #000516;
+    min-width: 992px;
 }
-.TxtMI
-{   color: #255B6F;
-    margin-left: 40px;
-    margin-right: 40px;
-    padding: 15px;
-    font-size: 30px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    
 
+.TxtMI {
+    color: #255B6F;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 10;
+    margin-top: 20px;
+    margin-bottom: 65px;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-.Title
-{   
+
+.Title {
     text-align: center;
 }
-.ImgConocimientos
-{
+
+.ImgConocimientos {
     padding-top: 15px;
     padding-left: 15px;
-    padding-right: 15px ;
-    height: 90px;
-    width: 90;
+    padding-right: 15px;
+    padding-bottom: 60px;
+    height: 10%;
+    width: 10%;
 }
-#Prueba
-{   text-align: center;
-    display:block;
-    margin:auto;
+
+.Iconos {
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+
+footer {
+    background-color: #000103;
+    width: auto;
+    height: auto;
+}
+.ImgFooter{
+    padding-top: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 50px;
+    height: 5%;
+    width: 5%;
+
+}
+#Redes {
+    color: rgb(146, 146, 146);
+    text-align: center;
 }
