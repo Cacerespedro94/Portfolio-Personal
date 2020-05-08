@@ -5,7 +5,13 @@
     min-width: 992px;
     font-size: 20px;
 }
-
+textarea {
+    overflow: scroll;
+    resize: none;
+}
+#formulario{
+    padding-bottom: 275px;
+}
 .nav-link {
     color: #0032a8;
 }
@@ -42,14 +48,6 @@ p {
     margin-bottom: 0;
 }
 
-#hero {
-    background-image: url('../Images/hero.jpg');
-    background-size: cover;
-    padding-top: 90px;
-    min-height: 700px;
-    color: white;
-}
-
 #Principal {
     background-image: url('../Images/hero.jpg');
     background-size: cover;
@@ -57,7 +55,9 @@ p {
     min-height: 700px;
     color: white;
 }
-
+.Error{
+    color: rgb(241, 63, 63);
+}
 a {
     text-decoration: none;
 }
@@ -75,6 +75,8 @@ a {
 
 .txtForm {
     color: white;
+    position: relative;
+    right: 220px;
 }
 
 #Nombre {
@@ -134,6 +136,7 @@ body {
     width: 10%;
 }
 
+
 .Iconos {
     text-align: center;
     display: block;
@@ -141,10 +144,12 @@ body {
     
 }
 
+
 footer {
     background-color: #000103;
     width: auto;
     height: auto;
+    padding-top: 40px;
 }
 
 .ImgFooter {
@@ -155,6 +160,9 @@ footer {
     height: 5%;
     width: 5%;
    
+}
+#boton{
+    margin-top: 20px;
 }
 
 form {

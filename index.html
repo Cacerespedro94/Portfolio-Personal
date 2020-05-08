@@ -11,6 +11,7 @@
 </head>
 
 <body>
+    <header>
     <nav class="navbar navbar-expand-lg">
         <div class="container">
             <a class="navbar-brand" href="#">Pedro Darío Cáceres</a>
@@ -22,13 +23,13 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#" id="inicio">Inicio </a>
+                        <a class="nav-link" href="#Principal" id="inicio">Inicio </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#" id="sobremi">Sobre mi</a>
+                        <a class="nav-link" href="#AboutMe" id="sobremi">Sobre mi</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#" id="experiencias">Experiencias</a>
+                        <a class="nav-link" href="#Conocimientos" id="experiencias">Experiencias</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#" id="contacto">Contacto</a>
@@ -37,12 +38,13 @@
             </div>
         </div>
     </nav>
+</header>
     <section id="Principal">
-        <div class="Cointainer">
-
+        <div class="Container">
+            
         </div>
     </section>
-
+<section id="AboutMe">
     <div class="BloqueTxt">
         <h1 class="Title">Sobre Mi</h1>
         <p class="TxtMI">Desde mi segundo año de Tecnicatura Universitaria en Programación en la UTN, busco orientar mis
@@ -53,6 +55,8 @@
         </p>
 
     </div>
+</section>
+<section id="Conocimientos">
     <div class="BloqueTxt">
         <section class="Iconos">
             <h1 class="Title">Conocimientos</h1><br>
@@ -66,6 +70,7 @@
 
         </section>
     </div>
+</section>    
     <div class="BloqueTxt">
         <h1 class="Title">Experiencia</h1>
         <div id="ExpTxt">
@@ -87,20 +92,23 @@
         <div class="form-group">
           <label for="ImputNombre" class="txtForm">Ingrese su nombre</label>
           <input type="text" class="form-control" id="ImputNombre" placeholder="Escriba su nombre...">
+          <span class="Error" id="NombreError"></span>
         </div>
 
         <div class="form-group">
             <label for="ImputEmail" class="txtForm">Ingrese su email</label>
             <input type="email" class="form-control" id="ImputEmail" placeholder="nombre@ejemplo.com">
-          </div>
-       <span class="Error" id="EmailError"></span>
+            <span class="Error" id="EmailError"></spand>
+        </div>
 
         <div class="ImputTexto">
           <label for="txtForm" class="txtForm">Ingrese un mensaje</label>
           <textarea class="form-control" id="ImputTexto" rows="3"></textarea>
+          
+          <span class="Error" id="TextoError"></span>
         </div>
 
-        <div><input type="submit" class="btn btn-primary" value="Enviar" id="submit"> 
+        <div id="boton"><input type="submit" class="btn btn-primary" value="Enviar" id="submit"> 
         </div>
       </form>
 </section>
@@ -108,8 +116,8 @@
 
         <h1 id="Redes">Mis redes</h1>
         <section class="Iconos">
-            <img class="ImgFooter" src="Images/github.svg" alt="Logo GitHub">
-            <img class="ImgFooter" src="Images/Linkedin.svg" alt="Logo GitHub">
+           <a href="https://github.com/"> <img class="ImgFooter"  src="Images/github.svg" alt="Logo GitHub"></a>
+          <a href="https://www.linkedin.com/in/cacerespedro/"href="https://github.com/"> <img class="ImgFooter" src="Images/Linkedin.svg" alt="Logo GitHub"></a> 
         </section>
 
     </footer>
